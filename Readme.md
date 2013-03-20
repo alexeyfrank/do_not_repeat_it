@@ -4,7 +4,7 @@
 
 ## Предыстория
 Многие разработчики начиная писать на Ruby и Rails читают [Getting
-started with Rails](http://guides.rubyonrails.org/) и чувствуя
+started with Rails](http://guides.rubyonrails.org/getting_started.html) и чувствуя
 вдохновения начинают писать код, который порой достоен красоваться на
 первых страницах [Govnocode Complete](http://govnokod.ru/ruby) . Все это
 происходит от незнания философии языка, технологии и принципов
