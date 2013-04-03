@@ -72,9 +72,27 @@
 
 
 	<section class="slide"><div>
-		<h2>Plain Text on Your Slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
+		<h2>Capistrano, where is my assets?!</h2>
+		<ul>
+			<li>
+				def store_dir
+				<br>
+					"uploads/users_photos/#{mounted_as}/#{model.id}"
+				<br>
+	  	end
+	  	</li>
+	  	<li class="next">
+	  		Symlink shared/system <br>
+	  	 	system -> /u/apps/nastachku/shared/system</li>
+	  	<li class="next">Fix: <br>
+	    	"<mark class="important">system/</mark>uploads/users_photos/#{mounted_as}/#{model.id}"</li>
+  	</ul>
 	</div></section>
+
+<section class="slide "><div>
+		<img src="pictures/feya-fail.jpg" alt="" width=400 height=500>
+</div></section>
+
 	<section class="slide"><div>
 		<h2>All Kind of Lists</h2>
 		<ol>
